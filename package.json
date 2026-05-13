@@ -3,7 +3,7 @@
     "type": "module",
     "version": "0.0.0",
     "packageManager": "pnpm@10.33.2",
-    "description": "",
+    "description": "lonewolfyx's Collection of Vue Composition Utilities",
     "author": "lonewolfyx",
     "license": "MIT",
     "homepage": "https://github.com/lonewolfyx/vue-hooks",
