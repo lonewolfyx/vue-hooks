@@ -33,6 +33,7 @@
         "lint": "eslint .",
         "lint:fix": "eslint --fix",
         "test": "vitest run",
+        "prepublishOnly": "pnpm build",
         "prepare": "simple-git-hooks",
         "docs:dev": "vitepress dev docs",
         "docs:build": "vitepress build docs",
