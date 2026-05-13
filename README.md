@@ -20,7 +20,7 @@ pnpm install @lonewolfyx/vue-hooks
 import { createContext } from '@lonewolfyx/vue-hooks'
 
 interface ThemeContext {
-  dark: boolean
+    dark: boolean
 }
 
 const [useTheme, provideTheme] = createContext<ThemeContext>('ThemeProvider')
@@ -29,13 +29,12 @@ const [useTheme, provideTheme] = createContext<ThemeContext>('ThemeProvider')
 ```vue
 <!-- Provider.vue -->
 <script setup>
-import { provideTheme } from './context'
-provideTheme({ dark: true })
+import { provideTheme, useTheme } from './context'
 </script>
 
 <!-- Child.vue -->
 <script setup>
-import { useTheme } from './context'
+provideTheme({ dark: true })
 const theme = useTheme() // { dark: true }
 </script>
 ```
