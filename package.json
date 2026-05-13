@@ -6,6 +6,10 @@
     "description": "",
     "author": "",
     "license": "MIT",
+    "homepage": "https://github.com/lonewolfyx/vue-hooks",
+    "bugs": {
+        "url": "https://github.com/lonewolfyx/vue-hooks/issues"
+    },
     "keywords": [],
     "main": "./dist/index.cjs",
     "module": "./dist/index.mjs",
