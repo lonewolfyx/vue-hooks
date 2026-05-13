@@ -10,7 +10,10 @@
     "bugs": {
         "url": "https://github.com/lonewolfyx/vue-hooks/issues"
     },
-    "keywords": [],
+    "keywords": [
+        "vue",
+        "hooks"
+    ],
     "main": "./dist/index.cjs",
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.mts",
