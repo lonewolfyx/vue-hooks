@@ -65,3 +65,4 @@ const theme = useTheme()
 | Hook | Description |
 |---|---|
 | [createContext](../hooks/create-context) | Create a typed context with `provide` and `inject` helpers |
+| [createReusableTemplate](../hooks/create-reusable-template) | Define a template once and reuse it multiple times with different bindings |

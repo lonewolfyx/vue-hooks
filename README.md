@@ -17,13 +17,14 @@ pnpm install @lonewolfyx/vue-hooks
 ## Usage
 
 ```ts
-import { createContext } from '@lonewolfyx/vue-hooks'
+import { createContext, createReusableTemplate } from '@lonewolfyx/vue-hooks'
 
 interface ThemeContext {
     dark: boolean
 }
 
 const [useTheme, provideTheme] = createContext<ThemeContext>('ThemeProvider')
+const [DefineTemplate, UseTemplate] = createReusableTemplate<{ title?: string }>()
 ```
 
 ```vue
