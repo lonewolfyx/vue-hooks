@@ -21,6 +21,7 @@ export default defineConfig({
                 text: 'Hooks',
                 items: [
                     { text: 'createContext', link: '/hooks/create-context' },
+                    { text: 'createReusableTemplate', link: '/hooks/create-reusable-template' },
                 ],
             },
         ],
@@ -38,6 +39,7 @@ export default defineConfig({
                 text: 'Hooks',
                 items: [
                     { text: 'createContext', link: '/hooks/create-context' },
+                    { text: 'createReusableTemplate', link: '/hooks/create-reusable-template' },
                 ],
             },
         ],
